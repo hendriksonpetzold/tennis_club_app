@@ -25,6 +25,7 @@ class HomeTrainEventCardListView extends GetView<HomeController> {
                   'price': list.price,
                   'train_name': list.trainName,
                   'detail_image': list.detailImage,
+                  'overview': list.overview,
                 },
               );
             },

@@ -29,6 +29,8 @@ class HomeController extends GetxController {
       price: 10,
       level: 'All levels',
       detailImage: AppImages.yoga,
+      overview:
+          'An exercise that will help you keep your mind calm to get better performance in the game. Start today and get results in your everyday life.',
     ),
     TrainEventModel(
       trainName: 'Beginner Bootcamp',
@@ -39,6 +41,8 @@ class HomeController extends GetxController {
       price: 15,
       level: 'All levels',
       detailImage: AppImages.beginnerLeague,
+      overview:
+          'Start playing tennis with the best coaches and your performance will be better every day, it\'s 3 hours a day of intense training and a lot of knowledge about the sport.',
     ),
     TrainEventModel(
       trainName: 'Men\'s league',
@@ -49,6 +53,8 @@ class HomeController extends GetxController {
       price: 30,
       level: 'All levels',
       detailImage: AppImages.mensLeague,
+      overview:
+          'Take part in a 2-hour session where you can expect plenty of rallying followed by competitive point play team singless style. ',
     ),
   ];
 }

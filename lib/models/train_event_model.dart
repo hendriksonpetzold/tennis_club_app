@@ -7,6 +7,7 @@ class TrainEventModel {
   String level;
   int price;
   String detailImage;
+  String overview;
   TrainEventModel({
     required this.trainName,
     required this.date,
@@ -16,5 +17,6 @@ class TrainEventModel {
     required this.level,
     required this.price,
     required this.detailImage,
+    required this.overview,
   });
 }

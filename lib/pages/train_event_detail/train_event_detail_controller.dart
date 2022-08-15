@@ -8,4 +8,5 @@ class TrainEventDetailController extends GetxController {
   int price = Get.arguments['price'];
   String trainName = Get.arguments['train_name'];
   String detailImage = Get.arguments['detail_image'];
+  String overview = Get.arguments['overview'];
 }

@@ -81,14 +81,24 @@ class TrainEventDetailPage extends StatelessWidget {
                   const SizedBox(
                     height: 16,
                   ),
+                  SizedBox(
+                    height: 60,
+                    width: double.infinity,
+                    child: Text(
+                      controller.overview,
+                      style: const TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 24,
+                  ),
                   TrainEventDetailCustomBoxInformation(
                     date: controller.date,
                     startTime: controller.startTime,
                     endTime: controller.endTime,
                     level: controller.level,
-                  ),
-                  const SizedBox(
-                    height: 24,
                   ),
                   Expanded(child: Container()),
                   TrainEventDetailButton(
